@@ -1,0 +1,22 @@
+{
+    "name": "crud-college",
+    "version": "1.0.0",
+    "description": "Esta es la prueba del uso de nodeJS para este reto",
+    "main": "server.js",
+    "scripts": {
+        "start": "nodemon ./server.js"
+    },
+    "author": "Felipe Medina González",
+    "license": "ISC",
+    "dependencies": {
+        "@sendgrid/mail": "^7.7.0",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "mongoose": "^6.7.2",
+        "twilio": "^3.83.1"
+    },
+    "keywords": [],
+    "devDependencies": {
+        "nodemon": "^2.0.20"
+    }
+}

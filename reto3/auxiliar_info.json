@@ -1,0 +1,32 @@
+{
+    {
+	"idType": "Tarjeta de identidad",
+	"identity": 1013587285,
+	"names": "Maria Alejandra",
+	"surnames": "Ruiz Nausa",
+	"address": "Some XD",
+	"email": "ruiznausamariaalejandra10a@gmail.com",
+	"fixedPhone": 6042986689,
+	"cellphone": 3244420338,
+	"linkToTheChecking": "https://www.youtube.com/watch?v=NKB_Sl-Bu3g", // ESTO ES PARA HACER UNA PRUEBA, NO ES COMO TAL, POR ESO ESA CANCIÓN DE YOUTUBE
+	"icfesCode": "AC10135872852022",
+	"doesAFamiliarStudyHere": false,
+	"socialLayer": 3,
+	"publicOrNeighborhoodSchool": true
+    },
+    {
+	"idType": "Tarjeta de identidad",
+	"idenitity": 1021665430,
+	"names": "Diego Alejandro",
+	"surnames": "Agudelo Vasquez",
+	"address": "Alguna dirección",
+	"email": "agudelodiego10.a@gmail.com",
+	"fixedPhone": 2132432434,
+	"cellphone": 3923847384,
+	"linkToTheChecking": "https://www.youtube.com/watch?v=acm6O4WwgBg", // LA MISMA SITUACIÓN
+	"icfesCode": "AC10216654302022",
+	"doesAFamiliarStudyHere": true,
+	"socialLayer": 3,
+	"publicOrNeighborhoodSchool": false
+    }
+}

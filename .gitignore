@@ -1,0 +1,11 @@
+# Esto es para eliminar todos los /node_modules (Los tienes que instalar por tu cuenta si quieres usar uno de los programas de los retos)
+*/node_modules/
+
+# Para evitar la filtración de API Keys
+*.env
+*/datasources/
+*/config/
+*variables.py
+
+# Documentación confidencial a menos de que estés en el Ministerio
+*.pdf
