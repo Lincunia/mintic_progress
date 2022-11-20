@@ -9,10 +9,40 @@ document.addEventListener('DOMContentLoaded', ()=>{
 		event.preventDefault()
 		event.stopPropagation()
 	    }
-	    else{
-		alert('Was macht das schon');
-	    }
+	    registerSomeone();
+	    event.preventDefault()
+
 	    form.classList.add('was-validated')
 	}, false)
     })
 });
+function registerSomeone(){
+    let names=document.getElementById('validationNames').value,
+    surnames=document.getElementById('validationSurnames').value,
+    email=document.getElementById('validationEmail').value,
+    gender=document.getElementById('validationGender').value,
+    comment=document.getElementById('validationComment').value,
+    typeOfComment=document.getElementById('validationTypeOfComment').value,
+    file=document.getElementById('formFile').value,
+    url=document.getElementById('validationUrl').value;
+
+    let loopbackUrl='http://localhost:3000/people';
+    let data={
+	names: names,
+	surnames: surnames,
+	email: email,
+	gender: gender,
+	comment: comment,
+	typeOfComment: typeOfComment,
+	file: file,
+	url: url
+    }
+    fetch(loopbackUrl, {
+	method: 'POST',
+	body: JSON.stringify(data),
+	headers: {
+	    'Content-Type': 'application/json'
+	}
+    }).then(res=>res.json())
+	.then(message=>console.log(message));
+}
